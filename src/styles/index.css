@@ -1,0 +1,125 @@
+/***** General styles *****/
+body {
+    background: url('/image/login/login_background_image.webp') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/***** Navbar styles *****/
+.navbar-div {
+    border: 1px solid #a2a2a2;
+}
+
+.navbar .navbar-img {
+    width: auto;
+    height: 20px
+}
+
+.navbar-div .navbar {
+    float: right;
+    margin-right: 100px;
+}
+
+/***** titles styles *****/
+
+header .titles {
+    font-size: 70px;
+    color: white;
+    font-family: "open sans";
+}
+
+.header-home {
+    margin-top: 70px;
+}
+
+/***** Login form styles *****/
+.modal-content {
+    background-color: #3b4652;
+    opacity: .85;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484;
+}
+
+.user-img {
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+.user-img img {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 50%;
+}
+
+.form-group input {
+    height: 42px;
+    font-size: 18px;
+    border: 0;
+    padding-left: 54px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-group::before {
+    font-family: "Font Awesome\ 5 Free";
+    position: absolute;
+    left: 28px;
+    font-size: 22px;
+    padding-top: 4px;
+}
+
+.form-group#user-group::before {
+    content: "\f007";
+}
+
+.form-group#contrasena-group::before {
+    content: "\f023";
+}
+
+.btn {
+    width: 60%;
+    margin: 5px 0;
+}
+
+.forgot {
+    padding: 5px 0;
+}
+
+.forgot a {
+    color: white;
+}
+
+.form-control {
+    margin: 5px 0;
+}
+
+.form-btn {
+    margin: 25px;
+}
+
+/***** Registration form styles *****/
+/*form*/
+#container-form {
+    margin-top: 1%;
+    width: 55%;
+    opacity: .88;
+}
+
+.name,
+.lastName,
+.phone,
+.identification,
+.password {
+    margin: 1px 0;
+}
+
+#img-frm {
+    padding: 10%;
+}
+
+/*table*/
+#container-table {
+    margin-top: 1%;
+    width: 55%;
+    opacity: .88;
+}

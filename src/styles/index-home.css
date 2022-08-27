@@ -1,0 +1,322 @@
+/********************** Styling home page **********************/
+
+/***** General styles *****/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "open sans";
+    font-size: 16px;
+    background-color: #ecf0f1;
+}
+
+h1 {
+    margin-top: 60px;
+    color: white;
+}
+
+h2,
+h3,
+h5 {
+    color: #293462;
+}
+
+/***** Styling header *****/
+/*home*/
+.header-home {
+    width: 100%;
+    height: 650px;
+    background-image: url("/image/background/background-sup.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+
+/*contact*/
+.header-contact {
+    width: 100%;
+    height: 650px;
+    background-image: url("/image/background/background-sup-contact.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+}
+
+.final-effect-inf-header {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 10vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #ecf0f1 transparent;
+}
+
+header .titles {
+    font-size: 85px;
+}
+
+/**** Navbar styles *****/
+.navbar-div {
+    border: 1px solid #a2a2a2;
+}
+
+.navbar .navbar-img {
+    width: auto;
+    height: 20px
+}
+
+.navbar-div .navbar {
+    float: right;
+    margin-right: 100px;
+}
+
+/**** Styling cards of beautiful places ****/
+#description,
+#description-beautiful-places {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.cards-beauty-places {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card-beauty {
+    margin: 10px 0;
+    width: 30%;
+    height: 400px;
+    text-align: 20px;
+    box-shadow: 0px 0px 4px 0 #34495e83;
+    border-radius: 13px;
+}
+
+.seccion-info-beauty-places {
+    text-align: center;
+}
+
+.card {
+    width: 23rem;
+    margin-bottom: 15px;
+}
+
+/*
+  .card-beauty img {
+    margin: 15px 0;
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 25%;
+  }*/
+
+/**** Styling containers ****/
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+/**** Styling line container (break line section) ****/
+.line-container {
+    background-color: darkslategrey;
+    padding: 1px;
+    margin-top: 30px;
+}
+
+/***** Styling paragraphs descriptions *****/
+.description {
+    margin-top: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: darkslategray;
+    padding: 5% 5% 5% 5%;
+}
+
+/***** Styling description *****/
+.title-description,
+.description-beautiful-places,
+.description-general-info,
+.description-culture,
+.description-largest-cities {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    height: auto;
+}
+
+.brief-description,
+.description-beautiful-places-subtitle,
+.description-general-info-subtitle,
+.description-culture-subtitle,
+.description-largest-cities-subtitle {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+/***** Styling reviews *****/
+.review {
+    padding: 8px 8px 8px 8px;
+    color: darkslategray;
+}
+
+/***** Styling general info section *****/
+.general-info {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.general-info-img img {
+    margin: 15px 20px;
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 15%;
+}
+
+.general-info-links {
+    margin: 15px 20px;
+    padding: 60px 0;
+}
+
+/***** Styling culture info section *****/
+.culture-info {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.culture-info-img img {
+    margin: 15px 20px;
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 15%;
+}
+
+.culture-info-links {
+    margin: 15px 20px;
+    padding: 60px 0;
+}
+
+/***** Styling tables *****/
+.tables {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+/***** Styling Footer ******/
+
+footer {
+    text-align: center;
+    background-color: #34495e;
+    color: whitesmoke;
+}
+
+.table-largest-cities td {
+    display: inline-flex;
+    margin: 10px 10px;
+}
+
+.table-largest-cities img {
+    border-radius: 15px;
+}
+
+/*home*/
+.final-effect {
+    margin-top: 20px;
+    height: 700px;
+    position: relative;
+    background-image: url("/image/background/background-inf.jpg");
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 130px;
+}
+
+/*contact*/
+.final-effect-contact {
+    margin-top: 20px;
+    height: 700px;
+    position: relative;
+    background-image: url("/image/background/background-inf-contact.jpg");
+    overflow: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    padding-top: 130px;
+}
+
+.final-effect-sup {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 10vh 100vw 0 0;
+    border-style: solid;
+    border-color: #ecf0f1 transparent transparent transparent;
+}
+
+.final-effect-inf {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    object-fit: unset;
+    border-width: 0 0 20vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #34495e transparent;
+}
+
+/***** Styling fonts *****/
+dt {
+    color: darkslategray;
+}
+
+dd a {
+    color: darkslategray;
+}
+
+li a {
+    color: darkslategray;
+}
+
+td,
+th {
+    color: darkslategray;
+}
+
+span {
+    color: darkslategray;
+}

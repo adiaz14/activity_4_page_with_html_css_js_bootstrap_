@@ -1,5 +1,12 @@
 /*Array of objects -registred users-*/
 const REGISTRED_USERS = []
+
+
+const form = document.getElementById("formTransaction");
+form.addEventListener("submit", function (event) {
+    event.preventDefault();
+});
+
 /*Function to registre new users*/
 function registreUser() {
 
@@ -46,7 +53,7 @@ function registreUser() {
     }
 
     //Render data in table
-    let table = document.getElementById("cuerpotabla")
+    let table = document.getElementById("bodyTable")
     table.innerHTML += `<tr><td>${nameTxt}</td><td>${lastNameTxt}</td><td>${phoneTxt}</td><td>${identificationTxt}</td><td>${passwordTxt}</td></tr>`
 
     //Add new objects
